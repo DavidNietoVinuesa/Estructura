@@ -1,0 +1,26 @@
+.container {
+    width: 320px; /* Ancho total del contenedor */
+    overflow: auto; /* Limpiar el flotado */
+}
+.item {
+    width: 100px; /* Ancho de cada elemento */
+    height: 100px; /* Altura de cada elemento */
+    float: left; /* Establecer el flotado a la izquierda */
+    box-sizing: border-box; /* El borde está incluido en el ancho y altura */
+    margin: 5px; /* Margen entre los elementos */
+    text-align: center; /* Alinear el texto al centro */
+    line-height: 100px; /* Centrar verticalmente */
+    font-size: 18px; /* Tamaño de fuente */
+    color: white; /* Color del texto */
+}
+
+/* Colores de fondo para cada elemento */
+.item:nth-child(1) { background-color: red; }
+.item:nth-child(2) { background-color: blue; }
+.item:nth-child(3) { background-color: green; }
+.item:nth-child(4) { background-color: orange; }
+.item:nth-child(5) { background-color: purple; }
+.item:nth-child(6) { background-color: yellow; }
+.item:nth-child(7) { background-color: cyan; }
+.item:nth-child(8) { background-color: magenta; }
+.item:nth-child(9) { background-color: gray; }
