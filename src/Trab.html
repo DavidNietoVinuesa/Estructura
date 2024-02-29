@@ -7,16 +7,29 @@
     <title>Ejemplo de Float Left</title>
     <style>
         .container {
-            width: 300px; /* Ancho total del contenedor */
+            width: 320px; /* Ancho total del contenedor */
+            overflow: auto; /* Limpiar el flotado */
         }
         .item {
             width: 100px; /* Ancho de cada elemento */
-            height: 100px; /* Altura de cada elemento */
             float: left; /* Establecer el flotado a la izquierda */
-            border: 1px solid #000; /* Borde para visualización */
             box-sizing: border-box; /* El borde está incluido en el ancho y altura */
             margin: 5px; /* Margen entre los elementos */
+            text-align: center; /* Alinear el texto al centro */
+            font-size: 18px; /* Tamaño de fuente */
+            color: white; /* Color del texto */
         }
+
+        /* Colores de fondo para cada elemento */
+        .item:nth-child(1) { background-color: red; height: 120px; }
+        .item:nth-child(2) { background-color: blue; height: 80px; }
+        .item:nth-child(3) { background-color: green; height: 150px; }
+        .item:nth-child(4) { background-color: orange; height: 100px; }
+        .item:nth-child(5) { background-color: purple; height: 130px; }
+        .item:nth-child(6) { background-color: yellow; height: 90px; }
+        .item:nth-child(7) { background-color: cyan; height: 110px; }
+        .item:nth-child(8) { background-color: magenta; height: 140px; }
+        .item:nth-child(9) { background-color: gray; height: 70px; }
     </style>
 </head>
 <body>
